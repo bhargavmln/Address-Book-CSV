@@ -1,0 +1,32 @@
+[
+{
+"firstName": "Bhargav",
+"lastName": "mln",
+"address": "flat",
+"city": "Hyd",
+"state": "AP",
+"pin": 555555,
+"phoneNo": 123123123,
+"emailId": "mln@gmail.com"
+},
+{
+"firstName": "Chota",
+"lastName": "Bheem",
+"address": "Laddo",
+"city": "Dholakpur",
+"state": "Cartoon",
+"pin": 120120,
+"phoneNo": 1532467958,
+"emailId": "bheem@gmail.com"
+},
+{
+"firstName": "tom",
+"lastName": "jerry",
+"address": "CN",
+"city": "house",
+"state": "Entertainment",
+"pin": 759314,
+"phoneNo": 9574863210,
+"emailId": "tom@gmail.com"
+}
+]
