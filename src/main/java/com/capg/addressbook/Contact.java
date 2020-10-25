@@ -1,14 +1,25 @@
 package com.capg.addressbook;
 
+import com.opencsv.bean.CsvBindByName;
+
 public class Contact {
+	@CsvBindByName
 	public String firstName;
-	public String lastName;
-	public String address;
-	public String state;
-	public String city;
-	public int pinCode;
-	public long phoneNumber;
-	public String emailId;
+	@CsvBindByName
+    public String lastName;
+	@CsvBindByName
+    public String address;
+	@CsvBindByName
+    public String state;
+	@CsvBindByName
+    public String city;
+	@CsvBindByName
+    public int pinCode;
+	@CsvBindByName
+    public long phoneNumber;
+	@CsvBindByName
+    public String emailId;
+
 
 	public Contact(String firstName, String lastName, String address, String city, String state, int pinCode,
 			long mobileNumber, String emailId) {
